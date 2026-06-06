@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Meta de Produtos</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #0c0c0f; /* Cor idêntica ao fundo escuro do seu painel */
+    }
+
+    /* TRUQUE: Joga os 45px da barra de aviso do Google para fora da tela */
+    .painel-container {
+      position: absolute;
+      top: -45px; 
+      left: 0;
+      width: 100%;
+      height: calc(100% + 45px);
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="painel-container">
+    <iframe src="https://script.google.com/macros/s/AKfycbxsnn4hNvxdkfw5muVQOy_ShwfsS1-Q5f4Prk4nq7dX-bMY4_vStarP21YrBcbxNzA7/exec"></iframe>
+  </div>
+
+</body>
+</html>
